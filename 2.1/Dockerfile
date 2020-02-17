@@ -2,11 +2,11 @@ FROM alpine:3.10
 
 MAINTAINER Dinko Korunic <dkorunic@haproxy.com>
 
-LABEL Name HAProxy
-LABEL Release Community Edition
-LABEL Vendor HAProxy
-LABEL Version 2.1.3
-LABEL RUN /usr/bin/docker -d IMAGE
+#LABEL Name HAProxy
+#LABEL Release Community Edition
+#LABEL Vendor HAProxy
+#LABEL Version 2.1.3
+#LABEL RUN /usr/bin/docker -d IMAGE
 
 ENV HAPROXY_BRANCH 2.1
 ENV HAPROXY_MINOR 2.1.3
